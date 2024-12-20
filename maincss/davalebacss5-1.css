@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #07081A;
+
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.headerCotainer {
+    display: flex;
+    max-width: 1040px;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-bottom: 88px;
+}
+
+.mainWrapper {
+    display: flex;
+    max-width: 1040px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 88px;
+}
+
+.HomeLink {
+    color: #B968DE;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+.accelerateContainer {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.ourP {
+    color: #C0C0C0;
+
+}
+
+.downloadButton {
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: #9100D3;
+    color: #FFFFFF;
+}
+
+.logoContainer {
+    display: flex;
+    gap: 90px;
+    padding: 0 72px 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detailsContainer {
+    display: flex;
+    gap: 64px;
+    margin-bottom: 84px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.anyLanguageContainer {
+    display: flex;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+    flex-direction: column;
+    max-width: 304px;
+    width: 100%;
+}
+
+.languageH3 {
+    font-size: 21px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.sparkP {
+    color: #C0C0C0;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    border-top: 1px solid #261C51;
+
+}
+
+.cloudAiP {
+    color: #FFFFFF;
+}
+
+.footerContainer {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navLink{
+    display: flex;
+    gap: 24px;
+}
